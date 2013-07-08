@@ -18,3 +18,7 @@ It works with Indeed-ID ESSO: http://indeed-id.com
 
 Время на сервере и на телефоне должно совпадать. Чтобы не возникало проблем, сервер должен принимать пароли в промежутке +- 3 минуты от настоящего момента.
 Приложение работает с системой Indeed-ID ESSO: http://indeed-id.ru
+
+Видео
+====
+http://www.youtube.com/watch?v=rtt4nHhVJsI
