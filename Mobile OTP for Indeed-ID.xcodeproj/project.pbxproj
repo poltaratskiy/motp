@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4399E43A1781D234000F277C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4399E4391781D234000F277C /* UIKit.framework */; };
+		4399E43C1781D234000F277C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4399E43B1781D234000F277C /* Foundation.framework */; };
+		4399E43E1781D234000F277C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4399E43D1781D234000F277C /* CoreGraphics.framework */; };
+		4399E4441781D234000F277C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4399E4421781D234000F277C /* InfoPlist.strings */; };
+		4399E4461781D234000F277C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4399E4451781D234000F277C /* main.m */; };
+		4399E44A1781D234000F277C /* indeed_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4399E4491781D234000F277C /* indeed_AppDelegate.m */; };
+		4399E44D1781D234000F277C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4399E44B1781D234000F277C /* MainStoryboard_iPhone.storyboard */; };
+		4399E4501781D234000F277C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4399E44E1781D234000F277C /* MainStoryboard_iPad.storyboard */; };
+		4399E46317828693000F277C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4399E46217828693000F277C /* libsqlite3.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		4399E46C1782BE5A000F277C /* indeed_PublicPropertiesAndMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 4399E46B1782BE5A000F277C /* indeed_PublicPropertiesAndMethods.m */; };
+		4399E4701782DA68000F277C /* indeed_TokenInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4399E46F1782DA68000F277C /* indeed_TokenInfo.m */; };
+		4399E4731782EE9E000F277C /* indeed_MainTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4399E4721782EE9E000F277C /* indeed_MainTableView.m */; };
+		4399E4771782EF18000F277C /* indeed_MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4399E4761782EF18000F277C /* indeed_MainViewController.m */; };
+		4399E4871783DC40000F277C /* AddTokeniPhoneView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4399E4861783DC40000F277C /* AddTokeniPhoneView.xib */; };
+		4399E48F1783E332000F277C /* indeed_AddTokenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4399E48E1783E332000F277C /* indeed_AddTokenVC.m */; };
+		4399E49117841CD9000F277C /* TokenInfoiPhoneView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4399E49017841CD9000F277C /* TokenInfoiPhoneView.xib */; };
+		4399E49417842008000F277C /* indeed_EnrollVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4399E49317842008000F277C /* indeed_EnrollVC.m */; };
+		43A41C3B17848AAF00164C6F /* EditTokeniPhoneView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43A41C3A17848AAF00164C6F /* EditTokeniPhoneView.xib */; };
+		43A41C3E17848BDE00164C6F /* indeed_EditTokenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A41C3D17848BDE00164C6F /* indeed_EditTokenVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4399E4351781D234000F277C /* Mobile OTP for Indeed-ID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile OTP for Indeed-ID.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4399E4391781D234000F277C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4399E43B1781D234000F277C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4399E43D1781D234000F277C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4399E4411781D234000F277C /* Mobile OTP for Indeed-ID-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mobile OTP for Indeed-ID-Info.plist"; sourceTree = "<group>"; };
+		4399E4431781D234000F277C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4399E4451781D234000F277C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4399E4471781D234000F277C /* Mobile OTP for Indeed-ID-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mobile OTP for Indeed-ID-Prefix.pch"; sourceTree = "<group>"; };
+		4399E4481781D234000F277C /* indeed_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = indeed_AppDelegate.h; sourceTree = "<group>"; };
+		4399E4491781D234000F277C /* indeed_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = indeed_AppDelegate.m; sourceTree = "<group>"; };
+		4399E44C1781D234000F277C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		4399E44F1781D234000F277C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		4399E46217828693000F277C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		4399E46A1782BE5A000F277C /* indeed_PublicPropertiesAndMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = indeed_PublicPropertiesAndMethods.h; sourceTree = "<group>"; };
+		4399E46B1782BE5A000F277C /* indeed_PublicPropertiesAndMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = indeed_PublicPropertiesAndMethods.m; sourceTree = "<group>"; };
+		4399E46E1782DA68000F277C /* indeed_TokenInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = indeed_TokenInfo.h; sourceTree = "<group>"; };
+		4399E46F1782DA68000F277C /* indeed_TokenInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = indeed_TokenInfo.m; sourceTree = "<group>"; };
+		4399E4711782EE9E000F277C /* indeed_MainTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = indeed_MainTableView.h; sourceTree = "<group>"; };
+		4399E4721782EE9E000F277C /* indeed_MainTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = indeed_MainTableView.m; sourceTree = "<group>"; };
+		4399E4751782EF18000F277C /* indeed_MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = indeed_MainViewController.h; sourceTree = "<group>"; };
+		4399E4761782EF18000F277C /* indeed_MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = indeed_MainViewController.m; sourceTree = "<group>"; };
+		4399E4861783DC40000F277C /* AddTokeniPhoneView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddTokeniPhoneView.xib; sourceTree = "<group>"; };
+		4399E48D1783E332000F277C /* indeed_AddTokenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = indeed_AddTokenVC.h; sourceTree = "<group>"; };
+		4399E48E1783E332000F277C /* indeed_AddTokenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = indeed_AddTokenVC.m; sourceTree = "<group>"; };
+		4399E49017841CD9000F277C /* TokenInfoiPhoneView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TokenInfoiPhoneView.xib; sourceTree = "<group>"; };
+		4399E49217842008000F277C /* indeed_EnrollVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = indeed_EnrollVC.h; sourceTree = "<group>"; };
+		4399E49317842008000F277C /* indeed_EnrollVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = indeed_EnrollVC.m; sourceTree = "<group>"; };
+		43A41C3A17848AAF00164C6F /* EditTokeniPhoneView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditTokeniPhoneView.xib; sourceTree = "<group>"; };
+		43A41C3C17848BDE00164C6F /* indeed_EditTokenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = indeed_EditTokenVC.h; sourceTree = "<group>"; };
+		43A41C3D17848BDE00164C6F /* indeed_EditTokenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = indeed_EditTokenVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4399E4321781D233000F277C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4399E46317828693000F277C /* libsqlite3.dylib in Frameworks */,
+				4399E43A1781D234000F277C /* UIKit.framework in Frameworks */,
+				4399E43C1781D234000F277C /* Foundation.framework in Frameworks */,
+				4399E43E1781D234000F277C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4399E42A1781D233000F277C = {
+			isa = PBXGroup;
+			children = (
+				4399E46217828693000F277C /* libsqlite3.dylib */,
+				4399E43F1781D234000F277C /* Mobile OTP for Indeed-ID */,
+				4399E4381781D234000F277C /* Frameworks */,
+				4399E4361781D234000F277C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4399E4361781D234000F277C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4399E4351781D234000F277C /* Mobile OTP for Indeed-ID.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4399E4381781D234000F277C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4399E4391781D234000F277C /* UIKit.framework */,
+				4399E43B1781D234000F277C /* Foundation.framework */,
+				4399E43D1781D234000F277C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4399E43F1781D234000F277C /* Mobile OTP for Indeed-ID */ = {
+			isa = PBXGroup;
+			children = (
+				4399E4851783DBFE000F277C /* Token Info */,
+				4399E4841783DBEE000F277C /* Edit Token */,
+				4399E4831783DBCE000F277C /* Add Token */,
+				4399E4741782EEBE000F277C /* Main View Controller */,
+				4399E46D1782DA04000F277C /* DataClasses */,
+				4399E4481781D234000F277C /* indeed_AppDelegate.h */,
+				4399E4491781D234000F277C /* indeed_AppDelegate.m */,
+				4399E44B1781D234000F277C /* MainStoryboard_iPhone.storyboard */,
+				4399E44E1781D234000F277C /* MainStoryboard_iPad.storyboard */,
+				4399E4401781D234000F277C /* Supporting Files */,
+			);
+			path = "Mobile OTP for Indeed-ID";
+			sourceTree = "<group>";
+		};
+		4399E4401781D234000F277C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4399E4411781D234000F277C /* Mobile OTP for Indeed-ID-Info.plist */,
+				4399E4421781D234000F277C /* InfoPlist.strings */,
+				4399E4451781D234000F277C /* main.m */,
+				4399E4471781D234000F277C /* Mobile OTP for Indeed-ID-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4399E46D1782DA04000F277C /* DataClasses */ = {
+			isa = PBXGroup;
+			children = (
+				4399E46A1782BE5A000F277C /* indeed_PublicPropertiesAndMethods.h */,
+				4399E46B1782BE5A000F277C /* indeed_PublicPropertiesAndMethods.m */,
+				4399E46E1782DA68000F277C /* indeed_TokenInfo.h */,
+				4399E46F1782DA68000F277C /* indeed_TokenInfo.m */,
+			);
+			name = DataClasses;
+			sourceTree = "<group>";
+		};
+		4399E4741782EEBE000F277C /* Main View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4399E4711782EE9E000F277C /* indeed_MainTableView.h */,
+				4399E4721782EE9E000F277C /* indeed_MainTableView.m */,
+				4399E4751782EF18000F277C /* indeed_MainViewController.h */,
+				4399E4761782EF18000F277C /* indeed_MainViewController.m */,
+			);
+			name = "Main View Controller";
+			sourceTree = "<group>";
+		};
+		4399E4831783DBCE000F277C /* Add Token */ = {
+			isa = PBXGroup;
+			children = (
+				4399E4861783DC40000F277C /* AddTokeniPhoneView.xib */,
+				4399E48D1783E332000F277C /* indeed_AddTokenVC.h */,
+				4399E48E1783E332000F277C /* indeed_AddTokenVC.m */,
+			);
+			name = "Add Token";
+			sourceTree = "<group>";
+		};
+		4399E4841783DBEE000F277C /* Edit Token */ = {
+			isa = PBXGroup;
+			children = (
+				43A41C3A17848AAF00164C6F /* EditTokeniPhoneView.xib */,
+				43A41C3C17848BDE00164C6F /* indeed_EditTokenVC.h */,
+				43A41C3D17848BDE00164C6F /* indeed_EditTokenVC.m */,
+			);
+			name = "Edit Token";
+			sourceTree = "<group>";
+		};
+		4399E4851783DBFE000F277C /* Token Info */ = {
+			isa = PBXGroup;
+			children = (
+				4399E49017841CD9000F277C /* TokenInfoiPhoneView.xib */,
+				4399E49217842008000F277C /* indeed_EnrollVC.h */,
+				4399E49317842008000F277C /* indeed_EnrollVC.m */,
+			);
+			name = "Token Info";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4399E4341781D233000F277C /* Mobile OTP for Indeed-ID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4399E4561781D234000F277C /* Build configuration list for PBXNativeTarget "Mobile OTP for Indeed-ID" */;
+			buildPhases = (
+				4399E4311781D233000F277C /* Sources */,
+				4399E4321781D233000F277C /* Frameworks */,
+				4399E4331781D233000F277C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mobile OTP for Indeed-ID";
+			productName = "Mobile OTP for Indeed-ID";
+			productReference = 4399E4351781D234000F277C /* Mobile OTP for Indeed-ID.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4399E42C1781D233000F277C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = indeed_;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 4399E42F1781D233000F277C /* Build configuration list for PBXProject "Mobile OTP for Indeed-ID" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4399E42A1781D233000F277C;
+			productRefGroup = 4399E4361781D234000F277C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4399E4341781D233000F277C /* Mobile OTP for Indeed-ID */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4399E4331781D233000F277C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4399E4441781D234000F277C /* InfoPlist.strings in Resources */,
+				4399E44D1781D234000F277C /* MainStoryboard_iPhone.storyboard in Resources */,
+				4399E4501781D234000F277C /* MainStoryboard_iPad.storyboard in Resources */,
+				4399E4871783DC40000F277C /* AddTokeniPhoneView.xib in Resources */,
+				4399E49117841CD9000F277C /* TokenInfoiPhoneView.xib in Resources */,
+				43A41C3B17848AAF00164C6F /* EditTokeniPhoneView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4399E4311781D233000F277C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4399E4461781D234000F277C /* main.m in Sources */,
+				4399E44A1781D234000F277C /* indeed_AppDelegate.m in Sources */,
+				4399E46C1782BE5A000F277C /* indeed_PublicPropertiesAndMethods.m in Sources */,
+				4399E4701782DA68000F277C /* indeed_TokenInfo.m in Sources */,
+				4399E4731782EE9E000F277C /* indeed_MainTableView.m in Sources */,
+				4399E4771782EF18000F277C /* indeed_MainViewController.m in Sources */,
+				4399E48F1783E332000F277C /* indeed_AddTokenVC.m in Sources */,
+				4399E49417842008000F277C /* indeed_EnrollVC.m in Sources */,
+				43A41C3E17848BDE00164C6F /* indeed_EditTokenVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4399E4421781D234000F277C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4399E4431781D234000F277C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4399E44B1781D234000F277C /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4399E44C1781D234000F277C /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4399E44E1781D234000F277C /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4399E44F1781D234000F277C /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4399E4541781D234000F277C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4399E4551781D234000F277C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4399E4571781D234000F277C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mobile OTP for Indeed-ID/Mobile OTP for Indeed-ID-Prefix.pch";
+				INFOPLIST_FILE = "Mobile OTP for Indeed-ID/Mobile OTP for Indeed-ID-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4399E4581781D234000F277C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mobile OTP for Indeed-ID/Mobile OTP for Indeed-ID-Prefix.pch";
+				INFOPLIST_FILE = "Mobile OTP for Indeed-ID/Mobile OTP for Indeed-ID-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4399E42F1781D233000F277C /* Build configuration list for PBXProject "Mobile OTP for Indeed-ID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4399E4541781D234000F277C /* Debug */,
+				4399E4551781D234000F277C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4399E4561781D234000F277C /* Build configuration list for PBXNativeTarget "Mobile OTP for Indeed-ID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4399E4571781D234000F277C /* Debug */,
+				4399E4581781D234000F277C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4399E42C1781D233000F277C /* Project object */;
+}
